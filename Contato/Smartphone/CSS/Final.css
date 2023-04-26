@@ -1,0 +1,280 @@
+.Divi_Final_Smart{
+    position: relative;
+        left: auto;
+        width: 100%;
+        height: 5px;
+        background-color:rgb(182, 51, 54);
+        bottom: 48px;
+}
+
+.Fale_Consc_Smart{
+    position: relative;
+    transform: rotate(180deg);
+    height: 10;
+    width: 15%;
+    border-bottom: 40px solid rgb(45, 7, 8);
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+   
+    top:-48.3px;
+    /*Sobre ponha elementos*/
+    z-index: 0;
+    /* Centalizar elementos*/
+    margin: 0 auto;
+}
+
+.Font_Smart_FC{
+    position: absolute;
+    transform: rotate(180deg);
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 0.85em;
+        line-height: 27px;
+        color: black; 
+        left:17%;
+}
+
+.Fale_Smart{
+    display: inline-block;
+    position: relative;
+    color: white;
+    top:12px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Consc_Smart{
+    position: relative;
+    color:rgb(212,237,55);
+    top:2px;
+    margin-left: 13px;
+    margin-right: 13px; 
+}
+
+/*===== media querys*/
+/*====== Posição 01========*/
+@media screen and (max-width:825px){
+    .Font_Smart_FC{
+      right: 17%;
+      
+    }
+  }
+  
+  
+  /*====== Posição 02========*/
+  @media screen and (max-width:725px){
+    .Font_Smart_FC{
+      right: 12%;
+      
+    }
+  }
+  /*====== Posição 03========*/
+  @media screen and (max-width:605px){
+    .Font_Smart_FC{
+      right: 1px;
+      
+    }
+  }
+  
+  /*====== Posição 04========*/
+  @media screen and (max-width:414px){
+    .Font_Smart_FC{
+      right: -14px;
+      
+    }
+  }
+
+  .Back_Final{
+    position: relative;
+    background-color: rgb(205 43 48);
+    width: 100%;
+    height: 250px;
+    bottom: 89px;
+    z-index: -2;
+  }
+
+.Agrad_Smart{
+  position: relative;
+  bottom: 89px;
+  margin-bottom: 0px;
+  height: 33px;
+}
+
+@media screen and (max-width:427px) {
+  .Agrad_Smart{
+    height: 64px;
+  }
+}
+
+.Bar_Black{
+  
+  background: black;
+  width: 100%;
+  height: 52px;
+  
+}
+
+.Font_agrd{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 0.85em;
+  line-height: 27px;
+  color: white; 
+
+  text-align: center;
+  position: relative;
+}
+
+.text_Agrd_part1{
+ /* position: relative;
+  display: inline-block;
+  left: 44%; */
+  
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.text_Agrd_part2{
+ /* position: relative;
+  display: inline-block;
+  top:25px;
+  left: 17%;*/
+  
+ 
+
+}
+.text_Agrd_part2_Cas{
+display: none;
+}
+.text_Agrd_part2_Vi{
+display: none;
+}
+
+@media screen and (max-width:427px) {
+  .Bar_Black{
+    height: 83px;
+  }
+}
+
+/*==== Telefone ==== */
+
+.Container_Tel{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 1.05em;
+  line-height: 27px;
+  color: white; 
+}
+
+.Container_Tel{
+  text-align: center;
+  position: relative;
+  top:30%;
+  
+}
+
+.Tel_45_F{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 0.7em;
+  top: -1px;
+  right: 5px;
+}
+
+.Tel_F{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  
+}
+
+.Tel_Icon_F{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  right: 8px;
+  top:4px;
+  
+}
+
+/*==== WHAT ======*/
+.Container_Tel_Wt{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 1.05em;
+  line-height: 27px;
+  color: white; 
+}
+
+.Container_Tel_Wt{
+  text-align: center;
+  position: relative;
+  top:38%;
+  
+}
+
+.Tel_Wt_45_F{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 0.7em;
+  top: -1px;
+  right: 5px;
+}
+
+.Tel_Wt_F{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  
+}
+
+.Tel_Icon_Wt_F{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  right: 8px;
+  top:4px;
+  color: rgb(16,188,67);
+}
+
+/*==== EMAIL =======*/
+.Container_Email_F{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 1.05em;
+  line-height: 27px;
+  color: white; 
+ 
+}
+
+.Container_Email_F{
+  text-align: center;
+  position: relative;
+  top:45%;
+}
+
+.Email_Icon_F{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  right: 8px;
+  top:4px;
+  
+  color: rgb(212,237,55); 
+}
+
+.Email_F{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}

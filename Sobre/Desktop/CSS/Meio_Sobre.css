@@ -1,0 +1,107 @@
+.background_lateral{
+    position: relative;
+    top:200px;
+}
+
+.Font_Container{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    /*font-size: 1em;*/
+    line-height: 27px;
+    display: inline-block;
+}
+
+.Text_01{
+    display: inline-block;
+    position: absolute;
+    left: 40%;
+    top:430px;
+    
+}
+
+.Text_02{
+    display: inline-block;
+    position: absolute;
+    left:40%;
+    top:485px;
+}
+
+@media screen and (min-width:1599px) {
+    .Text_02{
+        top:460px;
+    }
+}
+
+.Text_03{
+    display: inline-block;
+    position: absolute;
+    left:40%;
+    top:545px;
+}
+
+@media screen  and (max-width:1599px){
+    .Text_03{
+        top:570px;
+    }
+}
+
+@media screen  and (max-width:1491px){
+    .Text_03{
+        top:595px;
+    }
+}
+
+.Text_04{
+    display: inline-block;
+    position: absolute;
+    left:40%;
+    top:690px;
+}
+
+@media screen  and (max-width:1490px){
+    .Text_04{
+        top:725px;
+    }
+}
+
+@media screen  and (max-width:996px){
+    .Text_04{
+        top:735px;
+    }
+}
+
+.Text_05{
+    display: inline-block;
+    position: absolute;
+    left:40%;
+    top:730px;
+}
+
+@media screen  and (max-width:1490px){
+    .Text_05{
+        top:770px;
+    }
+}
+
+
+.Separador_Text{
+    position: absolute;
+        right: 0;
+        width: 60%;
+        height: 1px;
+        background-color:rgb(182, 51, 54);
+        top:530px;
+}
+
+@media screen  and (max-width:1599px){
+    .Separador_Text{
+        top: 560px;
+    }
+}
+
+@media screen  and (max-width:1491px){
+    .Separador_Text{
+        top: 585px;
+    }
+}

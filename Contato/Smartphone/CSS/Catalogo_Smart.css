@@ -1,0 +1,358 @@
+.background_Smart{
+    position: absolute;
+    top:91px;
+
+    width: 100%;
+    height: 400px;
+    background: url('../../../Images/Tamplestes/Fundo_Catalogo.png');
+}
+
+.Catalogo_Tipos_Smart{
+    display: inline-block;
+    position: relative;
+    top:-14px;
+
+    width: 100%;
+    height: 430px;
+    
+    
+}
+
+.Categorias_Smart{
+    z-index: 2;
+    top: 120px;
+    
+}
+
+
+
+.Font_Categorias_Smart{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 1.08em;
+        line-height: 27px;
+        color: black; 
+}
+
+.Font_Categorias_Smart{
+    position: relative;
+    top: 42px;
+    width: 90%;
+    left: 5%;
+}
+
+.Capo_Smart{
+    position: relative;
+    background:white;
+    width: 75px;
+    height: 75px;
+    border-radius: 28px;
+    box-shadow: 0px 0px 25px 4px rgba(0, 0, 0, 0.54);
+    margin: 0 auto;
+    right: 137px;
+    top: 139px;
+    text-align: center;
+}
+
+.Capo_img_Smart{
+    position: absolute;
+    top:18px;
+}
+
+
+
+.Portas_Smart{
+    position: relative;
+    background:white;
+    width: 75px;
+    height: 75px;
+    border-radius: 28px;
+    box-shadow: 0px 0px 25px 4px rgba(0, 0, 0, 0.54);
+    margin: 0 auto;
+    top: 64px;
+    right: 47px;
+    text-align: center;
+}
+
+.Portas_img_Smart{
+    position: absolute;
+    top:4px;
+}
+
+
+
+.Tampa_Traseira_Smart{
+    position: relative;
+    background:white;
+    width: 75px;
+    height: 75px;
+    border-radius: 28px;
+    box-shadow: 0px 0px 25px 4px rgba(0, 0, 0, 0.54);
+    margin: 0 auto;
+    top: -11px;
+    left: 44px;
+    text-align: center;
+}
+
+.Tampa_img_Smart{
+    position: absolute;
+    top: 17px;
+    left: 10px;
+}
+
+
+
+
+.Paralamas_Smart{
+    position: relative;
+    background:white;
+    width: 75px;
+    height: 75px;
+    border-radius: 28px;
+    box-shadow: 0px 0px 25px 4px rgba(0, 0, 0, 0.54);
+    margin: 0 auto;
+    top: -86px;
+    left: 135px;
+    text-align: center;
+}
+
+.Paralamas_img_Smart{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+
+
+.Parachoque_Smart{ 
+    position: relative;
+    background:white;
+    width: 75px;
+    height: 75px;
+    border-radius: 28px;
+    box-shadow: 0px 0px 25px 4px rgba(0, 0, 0, 0.54);
+    margin: 0 auto;
+    top: -145px;
+    right: 137px;
+    text-align: center;
+}
+
+.Parachoque_img_Smart{
+    position: absolute;
+    top: 9px;
+}
+
+
+
+.Laterais_Smart{
+
+    position: relative;
+    background:white;
+    width: 75px;
+    height: 75px;
+    border-radius: 28px;
+    box-shadow: 0px 0px 25px 4px rgba(0, 0, 0, 0.54);
+    margin: 0 auto;
+    top: -70px;
+    left: -48px;
+    text-align: center;
+    z-index: 1;
+}
+
+.Laterais_img_Smart{
+    position: absolute;
+    top: 16px;
+}
+
+
+
+.Painel_Dianteiro_Smart{
+    position: relative;
+    background:white;
+    width: 75px;
+    height: 75px;
+    border-radius: 28px;
+    box-shadow: 0px 0px 25px 4px rgba(0, 0, 0, 0.54);
+    margin: 0 auto;
+    top: -220px;
+    right: -44px;
+    text-align: center;
+}
+
+.Dianteiro_img_Smart{
+    position: absolute;
+    top: 23px;
+}
+
+
+.Painel_Traseiro_Smart{
+    position:relative;
+    background:white;
+    width: 75px;
+    height: 75px;
+    border-radius: 28px;
+    box-shadow: 0px 0px 25px 4px rgba(0, 0, 0, 0.54);
+    margin: 0 auto;
+    top: -295px;
+    left: 135px;
+    text-align: center;
+}
+
+.Traseiro_img_Smart{
+    position: absolute;
+    top: 18px;
+}
+
+
+.Container_Descritiva_Smart{
+display: inline-block;
+position: relative;
+
+float: right;
+right: 30px;
+
+}
+
+.font_Desc_Smart{
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 0.8em;
+        line-height: 27px;
+        color: black; 
+}
+.bar_01 , .bar_02 , .bar_03 , .bar_04 ,.bar_05 , .bar_06 , .bar_07{
+    color:red;
+}
+
+.Capo_Desc_Smart{
+display: inline-block;
+position: relative;
+left: 6%;
+top:50px;
+}
+
+.bar_01{
+    display: inline-block;
+position: relative;
+left: 6%;
+top:50px; 
+}
+
+.Portas_Desc_Smart{
+    display: inline-block;
+    position: relative;
+    left: 6%;
+    top:50px;
+}
+
+.bar_02{
+    display: inline-block;
+position: relative;
+left: 6%;
+top:50px; 
+}
+
+.Traseiras_Desc_Smart{
+    display: inline-block;
+    position: relative;
+    left: 6%;
+    top:50px;
+}
+
+.bar_03{
+    display: inline-block;
+position: relative;
+left: 6%;
+top:50px; 
+}
+
+.Paralamas_Desc_Smart{
+    display: inline-block;
+    position: relative;
+    left: 6%;
+    top:50px;
+}
+
+.bar_04{
+display: inline-block;
+position: relative;
+left: 6%;
+top:50px; 
+}
+
+.Parachoque_Desc_Smart{
+    display: inline-block;
+    position: relative;
+   /* right: -28%;*/
+  
+    top:50px;
+}
+
+.bar_05{
+display: inline-block;
+position: relative;
+
+top:50px; 
+}
+
+.Laterais_Desc_Smart{
+    display: inline-block;
+    position: relative;
+    
+    top:50px;
+}
+
+.bar_06{
+display: inline-block;
+position: relative;
+
+top:50px; 
+}
+
+.PTraseiro_Desc_Smart{
+    display: inline-block;
+    position: relative;
+   
+    top:50px;
+}
+
+.bar_07{
+display: inline-block;
+position: relative;
+
+top:50px; 
+}
+
+.PDianteiro_Desc_Smart{
+    display: inline-block;
+    position: relative;
+    
+    top:50px;
+  
+}
+
+
+@media screen and (max-width:419px) {
+    .Container_Descritiva_Smart{
+        width: 290px;
+        right: 0px;
+    }
+}
+
+@media screen and(max-width:990px) {
+    .font_Desc_Smart{
+        
+
+    }
+}
+
+.Div_Smart_Final_Catalogo{
+    position: relative;
+        left: auto;
+        width: 100%;
+        height: 5px;
+        background-color:rgb(182, 51, 54);
+        bottom: 47px;
+}

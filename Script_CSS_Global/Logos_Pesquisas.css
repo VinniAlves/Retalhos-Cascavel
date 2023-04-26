@@ -1,0 +1,78 @@
+
+.Container_Logos_Pesquisas{
+    display:flex;
+    position:relative;
+    width: 71%;
+    left:20%;
+    top:120px;
+    flex-wrap: wrap;
+    
+
+    }   
+
+    .bmw{
+        
+    
+    }
+    
+    .Citroen{
+        margin-left: 40px;
+    
+    }
+    
+    
+    .Chevrolet{
+        margin-left: 40px;
+        
+    }
+    
+    
+    .Fiat{
+        margin-left: 40px;
+    }
+    
+    .Ford{
+        position: relative;
+        margin-left: 40px;
+        top:5px;
+    }
+    
+    .VW{
+        margin-left: 40px;
+    }
+    
+    .Peugeot{
+        margin-left: 40px;
+    }
+    
+    .Honda{
+        margin-left: 40px;
+    }
+    
+    .Toyota{
+        margin-left: 40px;
+    }
+    
+    .Hyundai{
+        margin-left: 40px;
+    }
+    
+    .Nissan{
+        margin-left: 40px;
+    }
+    
+    .Renault{
+        
+        margin-left: 40px;
+    }
+
+
+.barra{
+    top:124px;
+    position: relative;
+    background-color: rgb(182, 51, 54);
+    height: 10px;
+    width: 100%;
+}
+
+

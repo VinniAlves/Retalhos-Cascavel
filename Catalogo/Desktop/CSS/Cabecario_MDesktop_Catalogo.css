@@ -1,0 +1,321 @@
+
+body{
+    margin: 0px;
+    border: none;
+    outline: 0;
+    
+}
+
+
+    .Logo_Home{
+        position: absolute;
+        margin:30px 0px 0px 80px ;
+        left:100px;
+        
+    }
+    
+    .Barra_Opcoes{
+        display: inline-block;
+        position:absolute;
+        right: 0px;
+        width: 60%;
+        height: 60px;
+        background-color: rgb(182, 51, 54);
+        border-bottom-left-radius: 502px 100px;
+        top:0px;
+        
+    }
+
+    
+    .Fonte_Opcoes{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 27px;
+        color: white; 
+        left:0px;
+        
+    }
+    
+
+   .Home{     
+    display: inline-block;
+    /*margin-left: 200px;*/
+    margin-top: 14px;
+    position: relative;
+    left:20%;
+    text-decoration: none;
+    color:white;
+    }
+
+    .Catalogo{
+        
+        display: inline-block;
+        /*margin-left:80px;*/
+        margin-top: 14px;
+        position: relative;
+        left:26%;
+        text-decoration: none;
+        color:rgb(219 237 7);
+    
+    }
+    
+    .Sobre{
+        display: inline-block;
+      /*  margin-left: 80px;*/
+        margin-top: 14px;
+        color:white;
+        text-decoration: none;
+        position: relative;
+        left:32%;
+    }
+    
+    .Contato{
+        
+        display: inline-block;
+       /* margin-left: 80px;*/
+        margin-top:14px;
+        position: relative;
+        left:38%;
+        text-decoration: none;
+        color:white;
+    }
+
+    
+
+    .Contato:hover , .Home:hover , .Sobre:hover {
+        color:rgb(219 237 7);
+    }
+
+    /*Telefone*/
+    .Telefone_Cabecario{
+        
+        position: relative;
+        top:0px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 1em;
+        line-height: 27px;
+        color: black; 
+        margin-top:50px;
+       
+    }
+/*Ligação*/
+    .T_Telefone{
+        display: flex;
+        flex-direction: row;
+       position: absolute;
+       right: 300px;
+    }
+    .T_45{
+        position: relative;
+        margin-left: 5px;
+        top:2px;
+        font-size: 0.8em;
+
+    }
+
+    .T_99{
+        position: relative;
+        font-size:1.2em;
+        margin-right: 30px;
+        margin-left: 5px;
+        
+    }
+    .T_icon{
+        position: relative;
+        top:5px;
+        color:rgb(87, 187, 87);
+    }
+    
+
+    /*Whats*/
+    .W_Telefone{
+        display: flex;
+        position: absolute;
+        right: 0px;
+        margin-right: 70px;
+        
+        margin-left: 40px;
+    }
+
+    .W_45{
+        position: relative;
+       top:1px;
+       font-size:0.9em;
+       margin-left: 5px;
+    }
+
+    .W_99{
+       display: inline-block;
+        position: relative;
+        font-size:1.2em;
+        margin-left: 5px;
+
+    }
+
+    .W_icon{
+       position: relative;
+       top:1px;
+       color:green;
+    }
+
+
+    .Separador_Procure{
+        position: relative;
+        left: auto;
+        width: 100%;
+        height: 35px;
+        background-color:rgb(182, 51, 54);
+        top:140px;
+    }
+    
+    .Procure{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 1em;
+        line-height: 27px;
+        color: white; 
+    }
+    
+    .Procure{
+        display: flex;
+        position: relative;
+       left:42.3%;
+        top:4px;
+        width: 40%;
+        
+    }
+    .Retalhos{
+        color: rgb(212,237,55);
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+    
+  
+    
+.Central_Container{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    top:124px;
+   
+}
+
+.Central{
+    display: inline;
+    position: relative;
+    left: 20%;
+}
+
+
+.Pecas_Diver{
+
+    position: relative;
+    transform: rotate(180deg);
+    height: 10;
+    width: 15%;
+    border-bottom: 50px solid rgb(203, 54, 58);
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+   
+    top:124px;
+    /*Sobre ponha elementos*/
+    z-index: 1;
+    /* Centalizar elementos*/
+    margin: 0 auto;
+}
+
+.Font{
+    transform: rotate(180deg);
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 1em;
+        line-height: 27px;
+        color: black; 
+        height: 0;
+}
+
+.Pecas{
+    position: relative;
+    text-align: center;
+    color: white;
+    bottom: 48px;
+    
+}
+
+
+.Diver{
+    
+    position: relative;
+    text-align: center;
+    bottom: 54px;
+    
+    color:rgb(212,237,55);
+}
+
+@media screen and (max-width:1300px) {
+    .Diver{
+        
+    }
+    .Pecas{
+        
+    }
+}
+
+.Fix_Mercado{
+    position: fixed;
+    right: -160px;
+    width: 250px;
+   
+    height: 70px;
+   
+    z-index: 2;
+    top:70%;
+
+    background-color:rgb(255, 209, 1);
+    
+                /*C-E, C-D , B-D, B-E */
+    border-radius: 10px 1px  1px   10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1em;
+    line-height: 27px;
+    color: black; 
+
+    -webkit-transition: -webkit-transform 2s;
+    transition:   transform 2s;
+
+}
+
+.Fix_Mercado:hover{
+-webkit-transform: translatex(-135px);
+transform:translate(-135px);
+}
+
+
+.Img_ML{
+position: relative;
+top:-8px;
+}
+
+.Text_ML{
+position: absolute;
+top:13px;
+right: 40px;
+}
+
+.Text_MCL{
+position: absolute;
+top:38px;
+right: 38px;
+}
+
+

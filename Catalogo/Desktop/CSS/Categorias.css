@@ -1,0 +1,449 @@
+.Catalogo_Tipos{
+    position: relative;
+    top:160px;
+    height: 430px;
+    width: 845px;
+    margin:0 auto;
+}
+
+.Font_Categorias{
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 1.08em;
+        line-height: 27px;
+        color: black; 
+        
+}
+ 
+.Capo{
+    position:absolute;
+
+    background:white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.54);
+    /*
+    right: 244px;
+    top:-215px;
+    */
+    border: 0px;
+    cursor: pointer;
+}
+.Capo:hover .Hover_Capo {
+    position: absolute;
+    height: 10px;
+    width: 200px;
+    top:190px;
+    right: 0px;
+    background-color: rgb(248, 64, 70);
+}
+.Capo:hover .Hover_Capo_pt2{
+    position:absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 13px solid rgb(248, 64, 70);
+    top:196px;
+    left: 80px;
+}
+
+
+.Capo_img{
+    position: relative;
+    margin:0 auto;
+    top: 8px;
+    
+}
+
+.Capo_text{
+top: -21px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1.4em;
+    line-height: 27px;
+    color: black; 
+
+    position: relative;
+    text-align: center;
+
+
+}
+
+.Portas{
+    position: absolute  ;
+
+    background:white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.54);
+    /*
+    right: 50%;
+    top: 100px;*/
+    
+    left: 229px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.Portas:hover .Hover_Portas {
+    position: absolute;
+    height: 10px;
+    width: 200px;
+    top:190px;
+    right: 0px;
+    background-color: rgb(248, 64, 70);
+}
+.Portas:hover .Hover_Portas_pt2{
+    position:absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 13px solid rgb(248, 64, 70);
+    top:196px;
+    left: 80px;
+}
+
+.Portas_img{
+    position: relative;
+    margin:0 auto;
+    top:5px;
+}
+
+.Portas_text{
+    top: 11px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1.4em;
+    line-height: 27px;
+    color: black; 
+
+    position: relative;
+    text-align: center;
+}
+
+.Tampa_Traseira{
+  
+    position: absolute;
+    background:white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.54);
+    left:458px;
+    border: 0px;
+    cursor: pointer;
+    
+}
+
+.Tampa_Traseira:hover .Hover_Tampa_Traseira {
+    position: absolute;
+    height: 10px;
+    width: 200px;
+    top:190px;
+    right: 0px;
+    background-color: rgb(248, 64, 70);
+}
+.Tampa_Traseira:hover .Hover_Tampa_Traseira_pt2{
+    position:absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 13px solid rgb(248, 64, 70);
+    top:196px;
+    left: 80px;
+}
+
+.Tampa_img{
+    position: relative;
+    margin:0 auto;
+    top: 10px;
+    left: 15px;
+}
+
+.Tampa_text{
+    top: -16px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1.4em;
+    line-height: 27px;
+    color: black; 
+
+    position: relative;
+    text-align: center;
+}
+
+
+.Paralamas{
+
+    position: absolute;
+    background:white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.54);
+    border: 0px;
+    left: 689px;
+    cursor: pointer;
+}
+
+.Paralamas:hover .Hover_Paralamas {
+    position: absolute;
+    height: 10px;
+    width: 200px;
+    top:190px;
+    right: 0px;
+    background-color: rgb(248, 64, 70);
+}
+.Paralamas:hover .Hover_Paralamas_pt2{
+    position:absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 13px solid rgb(248, 64, 70);
+    top:196px;
+    left: 80px;
+}
+
+.Paralamas_img{
+    position: relative;
+    margin:0 auto;
+}
+
+.Paralamas_text{
+    top: 0px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1.4em;
+    line-height: 27px;
+    color: black; 
+
+    position: relative;
+    text-align: center;
+    
+}
+
+.Parachoque{
+    position: absolute;
+    background:white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.54);
+    
+    top:228px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.Parachoque:hover .Hover_Parachoque {
+    position: absolute;
+    height: 10px;
+    width: 200px;
+    top:190px;
+    right: 0px;
+    background-color: rgb(248, 64, 70);
+}
+.Parachoque:hover .Hover_Parachoque_pt2{
+    position:absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 13px solid rgb(248, 64, 70);
+    top:196px;
+    left: 80px;
+}
+
+.Parachoque_img{
+    position: relative;
+    margin:0 auto;
+}
+
+.Parachoque_text{
+    top: 0px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1.4em;
+    line-height: 27px;
+    color: black; 
+
+    position: relative;
+    text-align: center;
+}
+
+.Laterais{  
+    position: absolute;
+    background:white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.54);
+    left: 229px;
+    top:228px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.Laterais:hover .Hover_Laterais {
+    position: absolute;
+    height: 10px;
+    width: 200px;
+    top:190px;
+    right: 0px;
+    background-color: rgb(248, 64, 70);
+}
+.Laterais:hover .Hover_Laterais_pt2{
+    position:absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 13px solid rgb(248, 64, 70);
+    top:196px;
+    left: 80px;
+}
+
+
+.Laterais_img{
+    position: relative;
+    margin:0 auto;
+    top: 5px;
+}
+
+.Laterais_text{
+    top: -15px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1.4em;
+    line-height: 27px;
+    color: black; 
+
+    position: relative;
+    text-align: center;
+}
+
+.Painel_Dianteiro{
+    
+    position: absolute;
+    background:white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.54);
+    left: 458px;
+    top:228px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.Painel_Dianteiro:hover .Hover_Painel_Dianteiro {
+    position: absolute;
+    height: 10px;
+    width: 200px;
+    top:190px;
+    right: 0px;
+    background-color: rgb(248, 64, 70);
+}
+.Painel_Dianteiro:hover .Hover_Painel_Dianteiro_pt2{
+    position:absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 13px solid rgb(248, 64, 70);
+    top:196px;
+    left: 80px;
+}
+
+.Dianteiro_img{
+    position: relative;
+    margin:0 auto;
+    top:10px;
+}
+
+.Dianteiro_text{
+    top: -32px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1.4em;
+    line-height: 27px;
+    color: black; 
+
+    position: relative;
+    text-align: center;
+}
+
+.Painel_Traseiro{
+
+    position: absolute;
+    background:white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.54);
+    
+    left: 689px;
+    top:228px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.Painel_Traseiro:hover .Hover_Painel_Traseiro {
+    position: absolute;
+    height: 10px;
+    width: 200px;
+    top:190px;
+    right: 0px;
+    background-color: rgb(248, 64, 70);
+}
+.Painel_Traseiro:hover .Hover_Painel_Traseiro_pt2{
+    position:absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 13px solid rgb(248, 64, 70);
+    top:196px;
+    left: 80px;
+}
+
+.Traseiro_img{
+    position: relative;
+    margin:0 auto;
+    top:10px;
+}
+
+.Traseiro_text{
+    top: -15px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1.4em;
+    line-height: 27px;
+    color: black; 
+
+    position: relative;
+    text-align: center;
+}

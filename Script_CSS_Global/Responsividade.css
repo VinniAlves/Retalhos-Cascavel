@@ -1,0 +1,12 @@
+@media screen and  (max-width:992px){
+    .Container_Master_Desktop {
+        display: none;
+    }
+
+}
+
+@media screen and  (min-width:992px){
+    .Container_Master_Smartphone {
+        display: none;
+    }
+}

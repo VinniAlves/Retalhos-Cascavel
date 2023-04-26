@@ -1,0 +1,123 @@
+
+.Fix_ML_Smart{
+    position: fixed;
+    background: rgb(255, 209, 1);
+    width: 50%;
+    height: 70px;
+    z-index: 2;
+    bottom: 0px;
+    right: 0px;
+    text-decoration: none;
+}
+
+.Img_ML_Smart{
+    position: relative;
+    margin: 0 auto;
+    left: 20%;
+    top:3px;
+}
+
+.Font_ML_Smart{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1em;
+    line-height: 27px;
+    color: black;  
+    text-align: center;
+}
+
+.Text_ML_Smart{
+    display: inline;
+    position: relative;
+    z-index: -1;
+    position: absolute;
+    top:11px;
+    
+    }
+    
+.Text_MCL_Smart{
+    display: inline;
+    position: relative;
+    position: absolute;
+    top: 35px;
+
+    }
+
+    
+@media screen and (max-width: 546px){
+    .Img_ML_Smart{
+        left: 3%;
+        
+    }
+    
+}
+
+
+@media screen and (max-width: 475px){
+    .Text_ML_Smart{
+        left: 100px;
+    }
+    .Text_MCL_Smart{
+        left: 98px;
+    }
+}
+
+
+/*==== WHATS =====*/
+.Fix_WT_Smart{
+    position: fixed;
+    background: rgb(31, 158, 38);
+    width: 50%;
+    height: 70px;
+    z-index: 2;
+    bottom: 0px;
+    left: 0;
+    text-decoration: none;
+}
+
+.Img_WT{
+    position: relative;
+    top:9px;
+    left: 6%;
+}
+
+.Font_WT_Smart{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1em;
+    line-height: 27px;
+    color: black;  
+    
+    position: relative;
+    bottom:53px;
+    width: 193px;
+    left: 40%;
+    
+}
+
+.Text_WT_Smart{
+    position: relative;
+    top:7px;
+    right: -5%;
+    }
+    
+    .Text_WCT_Smart{
+    position: relative;
+    top:2px;
+    right: -7%;
+    }
+
+@media screen and (min-width: 511px){
+    .Img_WT{
+        left:10%;
+    }
+}
+
+
+@media screen and (min-width: 875px){
+    .Img_WT{
+        left:15%;
+    }
+}

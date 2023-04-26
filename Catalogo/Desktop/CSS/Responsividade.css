@@ -1,0 +1,215 @@
+@media screen and  (min-width:992px){
+  /*
+   .Container_Master_Smartphone {
+       display: none;
+   }
+   */
+   .Divi_Final_Smart{display: none;}
+.Fale_Consc_Smart{display: none;}
+.Final_HM{display: none;}
+.Agrad_Smart{display: none;}
+
+   .Logo_Home_Cabecario{display: none;}
+   .master_btndonw{ display: none;}
+   
+   .Fix_WT_Smart{display: none;}
+   .Fix_ML_Smart{display: none;}
+   .pecas_Diver_Smart{display: none;}
+   .Div_Smart_Cab{display: none;}
+
+  
+   .Logo_Home_Cabecario{
+      display: none !important;
+   }
+
+
+}
+
+@media screen and  (max-width:992px){
+.Display_Desktop_Catalogo{
+   margin: 0 auto;
+   text-align: center;
+   right: 10px;
+}
+
+/*===Smart====*/
+.Menu_Container{top:0px !important;
+   width: auto !important;
+   height: 425px !important;
+   
+}
+
+.Menu_Border {
+   margin: 0 auto  !important;
+   top:10px !important;
+   width: 250px !important;
+   height: 150px !important;
+}
+.Menu_Img{
+   max-width: 250px !important;
+   max-height: 150px !important;
+}
+
+.Container_Text{ 
+   position: absolute;
+   width: 100%;
+   height: 1px;
+   text-align: center;
+   margin: 0 auto !important;
+}
+
+.Nome_Pecas_Menu{
+   display: block;
+   position: relative !important;
+   left: 0px !important;
+   top:10px !important;
+}
+.Tipo_Pecas_Menu{
+   display: block;
+   position: relative !important;
+   left: 0px !important;
+   top:20px !important;
+}
+.Menu_Codigo_Pecas{
+   display: block;
+   position: relative !important;
+   left: 0px !important;
+   top:30px !important;
+}
+.Menu_Marca_Pecas{
+   display: block;
+   position: relative !important;
+   left: 0px !important;
+   top:40px !important;
+}
+
+.Menu_Ml_Button{
+   position: relative !important;
+   left: 69px !important;
+   top:50px !important;
+}
+
+.Menu_Voltar{
+   position: relative !important;
+   left: -61px !important;
+   top: 100px !important;
+}
+
+
+
+/*===Smart====*/
+
+.Display_Desktop_Catalogo{top:30px !important}
+
+
+
+.Container_Cabecario_Desktop{display: none;}
+
+
+.Fix_Mercado{display: none;}
+.Img_ML{display: none;}
+
+.Container_Logos_Pesquisas{display: none;}
+/* =====Logos===== */
+.bmw{display: none;}
+.Citroen{display: none;}
+.Chevrolet{display: none;}
+.Fiat{display: none;}
+.Ford{display: none;}
+.VW{display: none;}
+.Peugeot{display: none;}
+.Honda{display: none;}
+.Toyota{display: none;}
+.Hyundai{display: none;}
+.Nissan{display: none;}
+.Renault{display: none;}
+
+/* =====Logos===== */
+
+
+
+.barra{display: none;}
+.Catalogo_Tipos{display: none !important; }
+
+.barra_final{display: none;}
+.Container_Verm{display: none;}
+.Agrad_Border{display: none;}
+
+
+
+}
+/*830px tela retira o padding*/
+@media screen and  (max-width:830px){
+.Display_Desktop_Catalogo{
+   padding: 0 !important;
+   margin-left: auto !important;
+    margin-right: auto !important;
+    width: 0%;
+}
+}
+@media screen and  (max-width:469px){
+
+   .Display_Desktop_Catalogo{
+      right:3%;
+      }
+   
+}
+
+@media screen and  (max-width:440px){
+
+   .Display_Desktop_Catalogo{
+      right:5%;
+      }
+   
+
+}
+
+
+@media screen and  (max-width:330px){
+
+   .Display_Desktop_Catalogo{
+      right:22%;
+      }
+   
+
+}
+
+@media screen and  (max-width:422px){
+   .Img_ML_Smart{
+      
+   }
+   .Text_ML_Smart{
+      left: 74px !important;
+   }
+   
+   .Text_MCL_Smart{
+      left: 70px !important;
+   }
+   .Display_Desktop_Catalogo{
+     right: 10%;
+   }
+}
+
+@media screen and  (max-width:360px){
+   .Text_ML_Smart{
+      font-size: 0.8em !important;
+      left: 74px !important;
+   }
+   
+   .Text_MCL_Smart{
+      left: 70px !important;
+      font-size: 0.8em !important;
+   }
+
+   
+.Text_WT_Smart{
+   font-size: 0.8em !important;
+   }
+   
+   .Text_WCT_Smart{
+      font-size: 0.8em !important;
+   }
+.Display_Desktop_Catalogo{
+   right: 13%;
+ }
+}

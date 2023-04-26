@@ -1,0 +1,234 @@
+
+.Catalogo_Tipos{
+    display: inline-block;
+    position: relative;
+    top:75px;
+
+    width: 100%;
+    height: 671px;
+    background: url('../../../Images/Tamplestes/Fundo_Catalogo.png');
+    
+}
+
+
+
+.Categorias{
+    
+    
+    z-index: 2;
+    top: 120px;
+    
+}
+
+
+
+.Font_Categorias{
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 1.08em;
+        line-height: 27px;
+        color: black; 
+}
+
+
+.Capo{
+    display: inline-block;
+    position: relative;
+    background:white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.54);
+    right: 244px;
+    top:-215px;
+    cursor: pointer;
+}
+
+.Capo_img{
+    position: relative;
+    top: 30%;
+    left: 18%;
+}
+
+.Capo_text{
+    position: relative;
+    top:30px;
+    left: 36%;
+}
+
+.Portas{
+    display: inline-block; 
+    position: absolute;
+    background:white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.54);
+    right: 50%;
+    top: 100px;
+    cursor: pointer;
+}
+
+.Portas_img{
+    position: relative;
+    top: 6%;
+    left: 24%;
+}
+
+.Portas_text{
+    position: relative;
+    top:30px;
+    left: 35%;
+}
+
+.Tampa_Traseira{
+  display: inline-block;  
+    position: absolute;
+    background:white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.54);
+    left:50%;
+    top: 100px;
+    cursor: pointer;
+}
+
+.Tampa_img{
+    position: relative;
+    top:24%;
+    left: 16%;
+}
+
+.Tampa_text{
+    position: relative;
+    top:30px;
+    left: 20%;
+}
+
+
+.Paralamas{
+    display: inline-block;
+    position: absolute;
+    background:white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.54);
+    top:-15px;
+    left: 216px;
+    cursor: pointer;
+}
+
+.Paralamas_img{
+    position: relative;
+    top:14%;
+    left: 9%;
+}
+
+.Paralamas_text{
+    position: relative;
+    top:30px;
+    left: 28%;
+}
+
+.Parachoque{
+    display: inline-block; 
+    position: absolute;
+    background:white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.54);
+    top:-14px;
+    right: 214px;
+    cursor: pointer;
+}
+
+.Parachoque_img{
+    position: relative;
+    top:10%;
+    left: 15%;
+}
+
+.Parachoque_text{
+    position: relative;
+    top:30px;
+    left: 24%;
+}
+
+.Laterais{
+    display: inline-block;  
+    position: absolute;
+    background:white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.54);
+    right: 50%;
+    top: 331px;
+    cursor: pointer;
+}
+
+.Laterais_img{
+    position: relative;
+    top:20%;
+    left: 4%;
+}
+
+.Laterais_text{
+    position: relative;
+    top:30px;
+    left: 34%;
+}
+
+.Painel_Dianteiro{
+    display: inline-block; 
+    position: absolute;
+    background:white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.54);
+    left: 50%;
+    top: 331px;
+    cursor: pointer;
+}
+
+.Dianteiro_img{
+    position: relative;
+    top:35%;
+    left: 8%;
+}
+
+.Dianteiro_text{
+    position: relative;
+    top:30px;
+    left: 16%;
+}
+
+.Painel_Traseiro{
+    display: inline-block;
+    position: absolute;
+    background:white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.54);
+    top:-14px;
+    left: 216px;
+    cursor: pointer;
+}
+
+.Traseiro_img{
+    position: relative;
+    top:26%;
+    left: 14%;
+}
+
+.Traseiro_text{
+    position: relative;
+    top:30px;
+    left: 18%;
+}

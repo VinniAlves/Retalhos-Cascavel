@@ -1,0 +1,255 @@
+body{
+  margin: 0px;
+  border: none;
+  outline: 0;
+  
+}
+
+.Logo_Home_Cabecario{
+    display: inline;
+    position: relative;
+    top:20px;
+    left:5%;
+}
+
+
+/*FONT*/
+.master_btndonw{
+  position: relative;
+  right: 10%;
+  top:-35px;
+  margin-right: 10px;
+  
+}  
+
+.dropdown-content {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 27px;
+  color: white; 
+  left:0px;
+
+}
+
+
+.dropbtn {
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 215px;
+  
+  /* Possição da abertura */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+  right: 0;
+  left: -150px;
+  top:70px;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.part{
+position: relative;
+
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+
+}
+
+
+
+/*===================*/
+
+.dropdown-content-two {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 1em;
+line-height: 27px;
+color: white; 
+left:0px;
+}
+
+.dropbtn_cat {
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content-two {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 215px;
+  z-index: 2;
+  left: -150px;
+  top:172px;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content-two a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+  border-top: 1px solid;
+
+  
+}
+
+.capoBtn{
+  border-top: 1px solid;
+}
+.painelBtn{
+  border-bottom: 1px solid;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content-two a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.showcat {
+  display:block;
+  
+}
+
+.desc{
+  bottom: -410px;
+  height: 512px;
+}
+  /*=============================================================*/
+
+  .Div_Smart_Cab{
+    position: relative;
+        left: auto;
+        width: 100%;
+        height: 5px;
+        background-color:rgb(182, 51, 54);
+        top:30px;
+
+  }
+
+  .Font_Smart_pcDv{
+    position: absolute;
+    transform: rotate(180deg);
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 1em;
+        line-height: 27px;
+        color: black; 
+        
+  }
+  .pecas_Diver_Smart{
+    position: relative;
+    transform: rotate(180deg);
+    height: 10;
+    width: 15%;
+    border-bottom: 40px solid rgb(203, 54, 58);
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+   
+    top:29.7px;
+    /*Sobre ponha elementos*/
+    z-index: 1;
+    /* Centalizar elementos*/
+    margin: 0 auto;
+
+  }
+
+.Font_Smart_pcDv{
+  left: 15%;
+  
+}
+
+/*===== media querys*/
+/*====== Posição 01========*/
+@media screen and (max-width:825px){
+  .Font_Smart_pcDv{
+    right: 9%;
+    
+  }
+}
+
+
+/*====== Posição 02========*/
+@media screen and (max-width:725px){
+  .Font_Smart_pcDv{
+    right: 3%;
+    
+  }
+}
+/*====== Posição 03========*/
+@media screen and (max-width:605px){
+  .Font_Smart_pcDv{
+    right: -9px;
+    
+  }
+}
+
+/*====== Posição 04========*/
+@media screen and (max-width:414px){
+  .Font_Smart_pcDv{
+    right: -14px;
+    
+  }
+}
+
+
+  .Pecas_Smart{
+    display: inline-block;
+    position: relative;
+    color: white;
+    bottom: 9px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+
+
+

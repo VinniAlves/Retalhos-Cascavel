@@ -1,0 +1,404 @@
+.barra_final{
+    top:75px;
+    position: relative;
+    background-color: rgb(182, 51, 54);
+    height: 10px;
+    width: 100%;
+}
+
+.barra_meio{
+    top:130px;
+    position: relative;
+    background-color: rgb(182, 51, 54);
+    height: 10px;
+    width: 100%;
+}
+
+.Font_Frase_Meio{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1.4em;
+    line-height: 27px;
+    
+    position: relative;
+    top:130px;
+    text-align: center;
+    height: 133px;
+}
+
+.Img_Meio{
+    display: inline-block;
+    position: relative;
+    top:68px;
+    left:5%;
+   
+}
+
+@media screen and (max-width:1280px){
+    .Img_Meio{
+        left:-10px;
+    }
+    
+}
+
+
+@media screen and (max-width:1166px){
+    .Img_Meio{
+        left:-20px;
+    }
+    
+}
+
+
+@media screen and (max-width:1094px){
+    .Img_Meio{
+        left:-30px;
+    }
+    
+}
+
+.Frase_Contato_Meio{
+    font-size: 1.4em;
+    position: relative;
+    top:25px;
+    
+    
+}
+
+.Tele{
+    position: absolute;
+    top:95px;
+    width: 100%;
+    cursor: pointer;
+    color: black;
+}
+
+.Tele:hover{
+    text-decoration:underline green;
+}
+
+.What{
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    cursor: pointer;
+    color: black;
+}
+
+.What:hover{
+    text-decoration: underline rgb(0, 255, 0);
+}
+
+.Mail{
+    position: absolute;
+    top:200px;
+    width: 100%;
+    cursor: pointer;
+    color: black;
+}
+
+.Mail:hover{
+    text-decoration:underline rgb(255,40,40) ;
+}
+
+.Merc{
+    position: absolute;
+    top:250px;
+    width: 100%;
+    cursor: pointer;
+    color: black;
+}
+
+.Merc:hover{
+    text-decoration: underline rgb(255,209,1);
+}
+
+.te{
+    display: inline-block;
+    position: relative;
+    top:300px;
+    
+    
+}
+
+.Fale_cons{
+    position: relative;
+    transform: rotate(180deg);
+    height: 10;
+    width: 15%;
+    border-bottom: 50px solid #2D0708;;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+   
+    top:10px;
+    /*Sobre ponha elementos*/
+    z-index: 1;
+    /* Centalizar elementos*/
+    margin: 0 auto;
+}
+
+.Font_Fale{
+    position: absolute;
+    transform: rotate(180deg);
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 1em;
+        line-height: 27px;
+        right: 50%;
+}
+
+.Fale{
+    display: inline-block;
+    position: relative;
+    right: 20%;
+    color: white;
+    top:5px;
+}
+
+.Conosco{
+    position: relative;
+    right:45%;
+    color:rgb(212,237,55);
+    top:-3px;
+}
+
+.Font_Final{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1.17em;
+    line-height: 27px;
+    color:white;
+    height: 0px;
+}
+
+.Container_Verm{
+position: relative;
+top:75px;
+}
+
+.Verm_Esq{
+    display: inline-block;
+    position: absolute;
+    background-color: rgba(203, 54, 58, 1);
+    width: 50%;
+    height:328px;
+    
+}
+
+.Verm_Dir{
+    display: inline-block;
+    position: absolute;
+    background-color: rgba(176, 43, 47, 1);
+    width:50%;
+    height: 328px;
+    right:0px;
+}
+
+.Frase_Contato{
+    position: absolute;
+    font-size: 1.2em;
+    z-index: 2;
+    top:73px;
+    right:30%;
+}
+
+/* === Telefone ===*/
+.Container_Tel_Desk{
+    position: relative;
+    text-align: center;
+    top:90px;
+}
+
+.Tel_Icon_Final {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    color:white;
+    left: 40px;
+    top: 3px;
+}
+
+.T_45_F{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    color:white;
+    font-size: 0.7em;
+    left: 63px;
+    bottom: 1px;
+}
+
+
+.T_99_F{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    color:white;    
+    left: 64px;
+}
+
+.Container_Tel_Desk:hover .T_99_F {
+color:rgb(87, 187, 87)
+}
+.Container_Tel_Desk:hover .T_45_F {
+    color:rgb(87, 187, 87)
+}
+.Container_Tel_Desk:hover .Tel_Icon_Final {
+    color:rgb(87, 187, 87)
+}
+
+/*Whatsapp*/
+
+.Container_Wts_Desk:hover .Whatsapp_Icon_Final{
+    color:green;
+}
+.Container_Wts_Desk:hover .W_45_F{
+    color:green;
+}
+.Container_Wts_Desk:hover .W_99_F{
+    color:green;
+}
+
+.Container_Wts_Desk{
+    position: relative;
+    text-align: center;
+    top:110px;
+}
+
+.Whatsapp_Icon_Final{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    left: 40px;
+    top:3px;
+}
+
+
+.W_45_F{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    font-size: 0.7em;
+    color:white; 
+    left: 63px;
+}
+
+.W_99_F{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    color:white; 
+    left: 64px;
+}
+
+
+
+.W_Houver{
+    color: white;
+}
+
+.W_Houver:hover{
+    color: rgb(212,237,55);
+}
+
+
+/*==== Email ==== */
+.Container_Email_Desk{
+    position: relative;
+    text-align: center;
+    top:130px;
+}
+
+.Container_Email_Desk:hover  .e-mail_Icon{
+    color:rgb(66,133,244)
+}
+.Container_Email_Desk:hover  .e-mail_text{
+    color:rgb(66,133,244)
+}
+
+.e-mail_Icon{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    color:white;
+    left: 107px;
+    top: 4px;
+}
+
+.e-mail_text{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    text-decoration: none;
+    color:white;
+    left: 132px;
+}
+
+/*=== Mercado === */ 
+.Container_ML_Desk{
+    position: relative;
+    text-align: center;
+    top:130px;
+}
+
+.Text_mercado:hover{
+    color: rgb(212,237,55);
+}
+
+
+.Text_mercado{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    top:2px;
+    color:white;
+    text-decoration: none;
+    left: 55px;
+}
+
+.Mercado_Icon{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    color:white;
+    top: 12px;
+    left: 36px;
+}
+
+/* === Fim verm === */
+
+.Agrad_Border{
+    position: relative;
+    height: 35px;
+    width: 100%;
+    top: 400px;
+    background-color: rgb( 0, 0, 1);
+}
+
+.text_agrad{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1.1em;
+    line-height: 27px;
+    color:white;
+    position: relative;
+    top:3px;
+    text-align: center;
+}
+
+
