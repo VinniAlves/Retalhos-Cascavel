@@ -9,7 +9,7 @@ O projeto Retalhos Cascavel é uma página web voltada para a venda de retalhos 
 - Catálogo: A página central, onde os usuário podem realizar suas buscas pelas diversas peças. Essa página, foi desenvolvida com a utilização de JavaScript e Firebase;
 - Contato: Uma página onde ajuda os usuários a entrarem em contato com a empresa;
 - Sobre: Essa página se torna dedicada a contar um pouco sobre a empresa e com que ela atua;
-
+- O sistema conta com uma pagina especifica para cadastro dos itens para o projeto, contando com uma tela de login protegido com o authenticator do Firebase, mantendo maior segurança;
 
 # Tecnologias Utilizadas
 - Html5 : Tecnologia utilizada para construção e estruturação dos componentes;
