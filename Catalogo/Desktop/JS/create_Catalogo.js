@@ -95,9 +95,6 @@ if(firebaseConfig){
         var HorarioAtual = new Date();
       
 
-        // Testador =======================
-      // HorarioAtual.setHours(HorarioAtual.getHours()+3)
-        //==================================
 
         var ReceberHorarioSalvoConvertido = new Date (ReceberHorarioSalvo);
         var CountDiferenca = new Date(HorarioAtual - ReceberHorarioSalvoConvertido);
@@ -348,7 +345,6 @@ function for_loop(){
         position: absolute;
         height: 200px;
         width: 200px;
-        border: 1px solid black;
         left: 55px;
         top:16px;
         `
@@ -457,7 +453,6 @@ function for_loop(){
         height: 250px;
         width: 350px;
         left: 140px;
-        border: 1px solid black;
         top:150px;
         `
         menu_container.appendChild(menu_border);
@@ -679,7 +674,6 @@ function for_loop(){
             position: absolute;
             height: 200px;
             width: 200px;
-            border: 1px solid black;
             left: 55px;
             top:16px;
             `
@@ -789,7 +783,6 @@ function for_loop(){
             height: 250px;
             width: 350px;
             left: 140px;
-            border: 1px solid black;
             top:150px;
             `
             menu_container.appendChild(menu_border);
@@ -994,7 +987,6 @@ function for_loop(){
         position: absolute;
         height: 200px;
         width: 200px;
-        border: 1px solid black;
         left: 55px;
         top:16px;
         `
@@ -1102,7 +1094,6 @@ function for_loop(){
         height: 250px;
         width: 350px;
         left: 140px;
-        border: 1px solid black;
         top:150px;
         `
         menu_container.appendChild(menu_border);
@@ -1307,7 +1298,6 @@ function for_loop(){
         position: absolute;
         height: 200px;
         width: 200px;
-        border: 1px solid black;
         left: 55px;
         top:16px;
         `
@@ -1415,7 +1405,6 @@ function for_loop(){
         height: 250px;
         width: 350px;
         left: 140px;
-        border: 1px solid black;
         top:150px;
         `
         menu_container.appendChild(menu_border);
@@ -1619,7 +1608,6 @@ function for_loop(){
         position: absolute;
         height: 200px;
         width: 200px;
-        border: 1px solid black;
         left: 55px;
         top:16px;
         `
@@ -1727,7 +1715,6 @@ function for_loop(){
         height: 250px;
         width: 350px;
         left: 140px;
-        border: 1px solid black;
         top:150px;
         `
         menu_container.appendChild(menu_border);
@@ -1930,7 +1917,6 @@ function for_loop(){
         position: absolute;
         height: 200px;
         width: 200px;
-        border: 1px solid black;
         left: 55px;
         top:16px;
         `
@@ -2039,7 +2025,6 @@ function for_loop(){
         height: 250px;
         width: 350px;
         left: 140px;
-        border: 1px solid black;
         top:150px;
         `
         menu_container.appendChild(menu_border);
@@ -2243,7 +2228,6 @@ function for_loop(){
         position: absolute;
         height: 200px;
         width: 200px;
-        border: 1px solid black;
         left: 55px;
         top:16px;
         `
@@ -2351,7 +2335,6 @@ function for_loop(){
         height: 250px;
         width: 350px;
         left: 140px;
-        border: 1px solid black;
         top:150px;
         `
         menu_container.appendChild(menu_border);
@@ -2556,7 +2539,6 @@ function for_loop(){
         position: absolute;
         height: 200px;
         width: 200px;
-        border: 1px solid black;
         left: 55px;
         top:16px;
         `
@@ -2664,7 +2646,6 @@ function for_loop(){
         height: 250px;
         width: 350px;
         left: 140px;
-        border: 1px solid black;
         top:150px;
         `
         menu_container.appendChild(menu_border);
