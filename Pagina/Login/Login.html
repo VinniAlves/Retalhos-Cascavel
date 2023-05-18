@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'/>
+    <title>Login Retalhos Cascavel</title>
+    <link href="login.css" rel="stylesheet">
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    
+    <div class="Container_Img">
+        <img src="Retalhos_Cascavel_PNG-1.png" width="200px" />
+    </div>
+    <div class="Container_input">
+        <input onkeyup="deletDisplayBlock()"  class="email_bar" type="text" placeholder="E-mail" id="email_login" >
+        <h5 class="erro_email display_block" id="erro_email">E-mail Invalido</h5>
+        <br>
+        <br>
+        <input onkeyup="deletDisplayBlock()" class="senha_bar" type="tex" placeholder="Senha"  id="senha_login">
+        <h5 class="erro_senha display_block" id="erro_senha">Senha Invalido</h5>
+        <br>
+        <br>
+        <button class="btn_login" id="login" > LOGIN</button>
+</div>
+<script>
+    function deletDisplayBlock(){
+    var messageErro = document.getElementById("erro_email");
+    messageErro.classList.add('display_block')
+
+    let messageErroSenha = document.getElementById("erro_senha");
+    messageErroSenha.classList.add('display_block')
+}
+
+</script>
+
+</body>
+</html>

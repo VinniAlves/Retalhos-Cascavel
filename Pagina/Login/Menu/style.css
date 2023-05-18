@@ -1,0 +1,64 @@
+.Container_Img{
+    position: relative;
+    text-align: center;
+
+}
+
+.Container_btn{
+    position: relative;
+    text-align: center;
+    top:50px;
+    
+}
+
+.btn_Adiconar{
+    position: relative;
+    height: 30px;
+    width: 90px;
+    background-color: rgb(206,50,55);  
+    border: 2px;
+    border-radius: 8px;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn_Adiconar:hover{
+    background-color: rgb(179, 46, 50);
+}
+
+.btn_Atualizar{
+    position: relative;
+    height: 30px;
+    width: 90px;
+    background-color: rgb(206,50,55);
+    border: 2px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn_Atualizar:hover{
+    background-color: rgb(179, 46, 50);
+}
+
+.btn_Excluir{
+    position: relative;
+    height: 30px;
+    width: 90px;
+    background-color: rgb(206,50,55);
+    border: 2px;
+    border-radius: 8px;
+    left: 10px;
+    color: white;
+    cursor: pointer;
+}
+.btn_Excluir:hover{
+    background-color: rgb(179, 46, 50);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}

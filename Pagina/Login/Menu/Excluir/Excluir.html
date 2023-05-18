@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excluir</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'/>
+    <link href="Excluir.css" rel="stylesheet">
+</head>
+<body>
+        
+
+    <a href="../Menu.html">
+        <button class="btn_voltar">Voltar</button>
+    </a>
+
+
+
+        <div class="Container_Img">
+            <img src="../../Retalhos_Cascavel_PNG-1.png" width="200px" />
+        </div>
+
+
+
+        <div class="Container_Busc">
+            <label class="lbl_Busc">Informe o codigo da peça</label>  
+            <input id="cod_busc" class="cod_busc" type="text">
+            <button id="btn_busc" class="Btn_Buscar">Pesquisar</button>
+        </div>
+
+
+    <div class="font">
+    <div class="borda">
+
+        <img id="Imagem_pc" class="img_conf"> 
+        <label class="Imagem_nome">Nome Imagem</label>
+         <input disabled class="Imagem_campo_nome" type="text" id="namebox"> 
+         <label class="Imagem_final_nome" id="extlab"></label>
+    
+    <input class="nome_pecas" id="nome_pecas" type="text" placeholder="Nome da Peça" disabled >
+   
+    <label class="marca_text">Marca</label>
+    <select class="marca" id="marca" disabled>
+        <option value="bmw">BMW</option>
+        <option value="chevrolet">Chevrolet</option>
+        <option value="citroen">Citroen</option>
+        <option value="fiat">Fiat</option>
+        <option value="ford">Ford</option>
+        <option value="honda">Honda</option>
+        <option value="hyundai">Hyundai</option>
+        <option value="nissan">Nissan</option>
+        <option value="peugeot">Peugeot</option>
+        <option value="renault">Renault</option>
+        <option value="toyota">Toyota</option>
+        <option value="volkswagen">Volkswagen</option>
+        
+
+    </select>
+
+    <input disabled class="codigo_peca" id="codigo_pecas" type="text" placeholder="Insira Codigo da Peça">
+
+    <input disabled class="url_ml" id="url_ml" type="text" placeholder="Link do Mercado Livre"> 
+
+
+    <label  class="tipo_pecas_text">Tipo da Peças</label>
+    <select disabled class="tipo_pecas" id="tipo_pecas">
+        <option value="Capo">Capo</option>
+        <option value="Porta">Porta</option>
+        <option value="Tampa_Traseira">Tampa Traseira</option>
+        <option value="Paralama">Paralama</option>
+        <option value="Parachoque">Parachoque</option>
+        <option value="Lateral">Lateral</option>
+        <option value="Painel_Dianteiro">Painel Dianteiro</option>
+        <option value="Painel_Traseiro">Painel Traseiro</option>
+        
+
+    </select>
+
+
+
+<button id="Excluir" class="Upload">Excluir</button>
+    
+    </div>
+</div>
+    
+
+<script type="module" src="Excluir.js"></script>
+</body>
+</html>

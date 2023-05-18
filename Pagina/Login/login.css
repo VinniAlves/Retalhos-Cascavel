@@ -1,0 +1,103 @@
+.Container_Img{
+    position: relative;
+    text-align: center;
+}
+
+.Container_input{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    top:50px;
+
+    
+}
+
+.email_bar{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 27px;
+
+    position: relative;
+    height: 25px;
+
+    border-radius: 4px;
+    border: 1px solid black;
+    width: 300px;
+}
+
+.senha_bar{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 27px;
+
+    position: relative;
+    top:20px;
+
+    position: relative;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px solid black;
+    width: 300px;
+}
+.btn_login{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 27px;
+
+    position: relative;
+    top:40px;
+
+    position: relative;
+    height: 30px;
+    width: 90px;
+    background-color: rgb(206,50,55);  
+    border: 2px;
+    border-radius: 8px;
+    right: 10px;
+    color: white;
+}
+
+.btn_login:hover{
+    background-color: rgb(189, 48, 52);  
+    cursor: pointer;
+}
+
+.erro_email{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 27px;
+
+    width: 100%;
+    position: absolute;
+    top: 3px;
+    right: 92px;
+
+    color: red;
+}
+
+.erro_senha{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 27px;
+
+    width: 100%;
+    position: absolute;
+    top: 69px;
+    right: 92px;
+
+    color: red; 
+}
+
+.display_block{
+    display: none;
+}

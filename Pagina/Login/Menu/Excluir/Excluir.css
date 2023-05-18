@@ -1,0 +1,232 @@
+.font{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1em;
+    line-height: 27px;
+    
+}
+
+.Container_Busc{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1em;
+    line-height: 27px;
+
+    position: relative;
+    margin:  0 auto;
+    top:80px;
+    border: 2px solid black;
+    width: 400px;
+    height: 120px;
+    
+}
+
+.Btn_Buscar{
+    position: relative;
+    height: 30px;
+    width: 90px;
+    background-color: rgb(206,50,55);
+    border: 2px;
+    border-radius: 8px;
+    color: white;
+
+    left: 40%;
+    top: 80px;
+    
+
+}
+.lbl_Busc{
+    position: absolute;
+    left: 25%;
+}
+
+.cod_busc{
+    position: absolute;
+    top:40px;
+    left: 28%;
+}
+
+.borda{
+    position: relative;
+    text-align: center;
+    border: 3px solid black;
+    width: 400px;
+    height: 700px;
+    top:145px;
+    margin: 0 auto;
+}
+
+
+.Container_Img{
+    position: relative;
+    text-align: center;
+    top:50px;
+
+}
+
+.img_conf{
+    position: absolute;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+
+    top:20px;
+    left: 50px;
+}
+
+.Imagem_nome{
+    position: absolute;
+    top:326px;
+    left: 137px;
+}
+.Imagem_campo_nome{
+    position: absolute;
+    top:353px;
+    left: 111px;
+}
+.Imagem_final_nome{
+    position: absolute;
+    top:350px;
+    left: 293px;
+}
+
+
+/*========Nome da peça=========*/
+
+.nome_pecas{
+    position: relative;
+    margin: 0 auto;
+    top:392px;
+    text-align: center;
+    left: 80px;
+}
+
+.nome_pecas{
+    height: 20px;
+    border-radius:10px ;
+    border: 2px solid black;
+}
+
+/*==========Marca da peça=============*/
+
+.marca{
+    text-align: center;
+    position: relative;
+    top:570px;
+    right: 197px;
+}
+
+.marca{
+    border-radius:10px ;
+    height: 20px;
+    border: 2px solid black;
+}
+
+.marca_text{
+    position: relative;
+    top:541px;
+    right: 120px;
+}
+
+/*========Tipo da peça==========*/
+
+.tipo_pecas_text{
+    display: inline-block;
+    position: relative;
+    top: 486px;
+    left: 188px;
+}
+
+.tipo_pecas{
+    text-align: center;
+    position: relative;
+    top:515px;
+    left: 68px;
+}
+
+.tipo_pecas{
+    border-radius:10px ;
+    height: 20px;
+    border: 2px solid black;
+}
+
+
+/*=====Codigo da Peça=======*/
+.codigo_peca{
+    position: relative;
+    margin: 0 auto;
+    top:417px;
+    text-align: center;
+    left: 23%;
+}   
+
+.codigo_peca{
+    height: 20px;
+    border-radius:10px ;
+    border: 2px solid black;
+}
+
+/*=====Mercado Livre=======*/
+
+.url_ml{
+    position: relative;
+    margin: 0 auto;
+    top:468px;
+    text-align: center;
+    right:23%;
+}
+
+.url_ml{
+    height: 20px;
+    border-radius:10px ;
+    border: 2px solid black;
+}
+
+/*===Botões====*/
+
+.Selecionar{
+    position: relative;
+    top:575px;
+    right: 10%;
+}
+
+.Selecionar{
+    height: 35px;
+    width: 90px;
+    background-color: rgb(206,50,55);
+    border: 2px;
+    border-radius: 8px;
+    color: white;
+}
+
+.Upload{
+    position: relative;
+    top:571px;
+    right: 130px;
+}
+
+.Upload{
+    height: 35px;
+    width: 90px;
+    background-color: rgb(206,50,55);
+    border: 2px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.Upload:hover{
+    background-color: rgb(179, 46, 50);
+}
+
+.btn_voltar{
+    height: 30px;
+    width: 90px;
+    background-color: rgb(206,50,55);
+    border: 2px;
+    border-radius: 8px;
+    left: 10px;
+    color: white;
+}
